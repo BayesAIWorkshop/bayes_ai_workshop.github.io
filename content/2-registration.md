@@ -1,7 +1,6 @@
 ---
-title: Get Started
+title: Registration
 nav: Registration
-topics: Template; Basic Config
 ---
 
 tba

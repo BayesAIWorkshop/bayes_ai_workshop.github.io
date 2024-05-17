@@ -1,7 +1,6 @@
 ---
-title: Create Lesson Content
+title: Travel
 nav: Travel
-topics: Content; Markdown; Includes
 ---
 
 tba
