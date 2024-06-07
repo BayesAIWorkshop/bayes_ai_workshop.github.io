@@ -42,7 +42,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-		</style>
+		<!--</style> -->
 						<span class="logo"><img src="images/logo.svg" alt="" /></span>
 						<!-- <h1 style="color:white">BayesAI Workshop</h1> -->
 						<h2 style="color:white">Lancaster University, 23-26 September 2024</h2>
@@ -55,9 +55,9 @@
 							<!-- <li><a href="#home" class="active">About</a></li> -->
 							<li><a href="#schedule">Schedule</a></li>
 							<li><a href="#registration">Registration</a></li>
-							<li><a href="#accommodation">Accommodation</a></li>
 							<li><a href="#organisers">Organizers</a></li>
 							<li><a href="#location">Location</a></li>
+							<li><a href="#accommodation">Accommodation</a></li>
 						</ul>
 					</nav>
 
@@ -70,8 +70,9 @@
 									<div class="content">
 										<header class="major">
 											<!-- <h2>About</h2> -->
-		</style>
-											<img src="images/logos.svg" alt="" width="900px" class="centered-image"/>
+		<!--</style> -->
+											<!-- <img src="images/logos.svg" alt="" width="900px" class="centered-image"/> -->
+											<img id="myFrame" src="images/logos.svg" alt="" class="centered-image"/>
 										</header>
 										
 										<strong>BayesAI</strong> is a workshop on probabilistic and Bayesian aspects of artificial intelligence to be held at Lancaster University from midday <strong>Monday, 23 September</strong> to midday <strong>Thursday, 26 September</strong>.
@@ -79,14 +80,15 @@
 										<br>
 										<br>
 
-										The workshop seeks to catalyse research at the interface of Bayesian statistics and artificial intelligence with themes including:
+										The workshop seeks to catalyse research at the interface of Bayesian statistics and artificial intelligence. Themes include:
 										<ul>
 											<li>Generative modeling.</li>
-											<li>Physics-informed neural networks.</li>
+											<li>Physics-informed machine learning models.</li>
 											<li>Monte Carlo methods in machine learning.</li>
+											<li>Applications of the above.</li>
 										</ul>
 									
-										<strong> Call for submissions: </strong> we invite participants to submit <strong>posters</strong> for the evening session on Monday 23 September.
+										<strong> Call for submissions: </strong> we invite participants to submit <strong>posters</strong> for the evening session on Monday 23 September. See <a href="https://forms.gle/zGYJPgw7veeZaypBA">the registration form</a> for more details.
 										<br>
 										<br>
 
@@ -144,15 +146,20 @@
 							</section>
 
 							<section id="registration" class="main">
-								<header class="major"><h2>Registration</h2></header>
+								<header class="major">
+									<h2>Registration</h2></header>
 								<div class="spotlight">
 									<div class="content">
-											<strong><a href="https://forms.gle/zGYJPgw7veeZaypBA">Register for the workshop here.</a> </strong>
+											<strong><a href="https://forms.gle/zGYJPgw7veeZaypBA">Register for the workshop here.</a></strong>
 											
 											<br>
 											<br>
 
-											The registration fees can be found below. Lunch and refreshments will be provided for all participants.
+											Participation is subsidized for members of Lancaster University and Prob_AI.
+											<br>
+											<br>
+
+											The registration fee for other participants can be found below. Lunch and refreshments will be provided.
 
 											<br>
 											<br>
@@ -173,20 +180,6 @@
 											</table>
 									</div>
 								</div>
-							</section>
-
-							<section id="accommodation" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major"> <h2>Accommodation</h2> </header>
-										Links to on-campus accommodation can be found below:
-										<ul>
-											<li><strong><a href="https://englishlakes.co.uk/lancaster-house/#:~:text=Lancaster%20House%20Hotel%20is%20a,famous%20Butterfly%20House%20and%20Castle.">Lancaster House Hotel.</a> </strong>
-											<li><strong><a href="https://www.lancaster.ac.uk/conferences/guest-bedrooms/">Lancaster University Guest Bedrooms.</a> </strong>
-										</ul>
-										<a  href="https://www.google.com/maps/search/hotels+near+Lancaster+city+centre/@54.0422775,-2.802921,14z/data=!4m8!2m7!5m5!5m4!1s2024-09-23!2i3!4m1!1i1!6e3?entry=ttu"> Alternative accommodation options are available around Lancaster city centre</a>, a short bus ride away from the university.
-									</div>	
-								</div>			
 							</section>
 							
 							<section id="organisers" class="main">
@@ -256,18 +249,28 @@
 											height = "360" style="border:0;" allow="geolocation"></iframe>
 											<!--END: MazeMap embed link -->
 
-										<!--<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJG5iJjWJje0gRJthjv17bmpo&key=AIzaSyD-CvKvZVMEnRrHdjZxwnWQKeEgk0ncI1o" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>		-->								
 									</div>
-								</div>
-								<img src="images/logos.svg" alt="" width="900px" class="centered-image"/>
+								<!-- <img src="images/logos.svg" alt="" width="900px" class="centered-image"/> -->
 							</section>
 
-					</div>
+							<section id="accommodation" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major"> <h2>Accommodation</h2> </header>
+										Accommodation is available on the Lancaster University campus:
+										<ul>
+											<li><strong><a href="https://englishlakes.co.uk/lancaster-house">Lancaster House Hotel.</a></strong>
+											<li><strong><a href="https://www.lancaster.ac.uk/conferences/guest-bedrooms">Lancaster University Guest Bedrooms.</a></strong>
+										</ul>
+										Accommodation is also available around the historic <a href="https://maps.app.goo.gl/SW7heiWYp3wDTGHM6"><strong>Lancaster city centre</strong></a>, a 20-minute bus ride away from the university.
+									</div>	
+								</div>			
+							</section>
 
-				<!-- Footer
-					<footer id="footer">
-						<p class="copyright">Copyright &copy; At?l?m Gune? Baydin. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>  -->
+							<!-- <section>
+							<img id="myFrame" src="images/logos.svg">
+							</section> -->
+					</div>
 			</div>
 
 			
