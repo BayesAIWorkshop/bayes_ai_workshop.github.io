@@ -38,6 +38,34 @@
 				margin-right: auto;
 			}
 		</style>
+
+		<title>Photo Icon Next to Name with URL Icon</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+		<style>
+			ul {
+				list-style-type: none;
+				padding: 0;
+			}
+			.speaker-item {
+				display: flex;
+				align-items: center;
+				margin-bottom: 10px; /* Space between each list item */
+			}
+			.photo-icon {
+				width: 60px; /* Adjust the size as needed */
+				height: 60px; /* Adjust the size as needed */
+				border-radius: 50%;
+				margin-right: 12px; /* Adjust the spacing as needed */
+			}
+			.name {
+				font-size: 1em; /* Adjust the size as needed */
+				margin-right: 10px; /* Adjust the spacing as needed */
+			}
+			.link-icon {
+				font-size: 1em; /* Adjust the size as needed */
+				color: blue; /* Set icon color */
+			}
+		</style>
 	</head>
 	<body>
 
@@ -120,31 +148,156 @@
 										<br>
 
 										<strong> Confirmed speakers: </strong>
+
 										<ul>
-											<li>Theo Damoulas (Warwick)</li>
-                                            <li>Daniela De Angelis (Cambridge)</li>
-                                            <li>Vincent Dutordoir (DeepMind)</li>
-                                            <li>Arthur Gretton (UCL)</li>
-                                            <li>José Miguel Hernández-Lobato (Cambridge)</li>
-                                            <li>Sidharth Jaggi (Bristol)</li>
-                                            <li>Katerina Karoni (Edinburgh)</li>
-                                            <li>Samuel Kaski (Manchester)</li>
-                                            <li>Jonas Latz (Manchester)</li>
-                                            <li>Henry Moss (Cambridge)</li>
-                                            <li>Patricia Murrieta-Flores (Lancaster)</li>
-                                            <li>Hao Ni (UCL)</li>
-                                            <li>Nikolas Nüsken (KCL)</li>
-                                            <li>Chris Oates (Newcastle)</li>
-                                            <li>Angus Phillips (Oxford)</li>
-                                            <li>Ciara Pike-Burke (Imperial)</li>
-                                            <li>Sam Power (Bristol)</li>
-                                            <li>Theresa Smith (Bath)</li>
-                                            <li>Kate Smith-Miles (Melbourne)</li>
-                                            <li>Jared Tanner (Oxford)</li>
-                                            <li>Mark van der Wilk (Oxford)</li>
+											<li class="speaker-item">
+												<img src="speakers/theo.jpg" alt="Photo Icon" class="photo-icon">
+												<span class="name">Theo Damoulas (Warwick)</span>
+												<a href="https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/damoulas/" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/daniela-de-angelis.jpg" alt="Photo Icon" class="photo-icon">
+												<span class="name">Daniela De Angelis (Cambridge)</span>
+												<a href="https://www.csap.cam.ac.uk/network/daniela-de-angelis/" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/vd309.jpg" alt="Photo Icon" class="photo-icon">
+												<span class="name">Vincent Dutordoir (DeepMind)</span>
+												<a href="https://vdutor.github.io/" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/ag.jpeg" alt="Photo Icon" class="photo-icon">
+												<span class="name">Arthur Gretton (UCL)</span>
+												<a href="https://www.gatsby.ucl.ac.uk/~gretton/" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/jose.jpeg" alt="Photo Icon" class="photo-icon">
+												<span class="name">José Miguel Hernández-Lobato (Cambridge)</span>
+												<a href="https://jmhl.org/" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/sid.png" alt="Photo Icon" class="photo-icon">
+												<span class="name">Sidharth Jaggi (Bristol)</span>
+												<a href="https://research-information.bris.ac.uk/en/persons/sidharth-sid-jaggi" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/katerina.jpeg" alt="Photo Icon" class="photo-icon">
+												<span class="name">Katerina Karoni (Edinburgh)</span>
+												<a href="https://scholar.google.com/citations?user=bFM6_BUAAAAJ&hl=en" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/samuel.jpg.webp" alt="Photo Icon" class="photo-icon">
+												<span class="name">Samuel Kaski (Manchester)</span>
+												<a href="https://research.manchester.ac.uk/en/persons/samuel.kaski" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/jonas.jpg.webp" alt="Photo Icon" class="photo-icon">
+												<span class="name">Jonas Latz (Manchester)</span>
+												<a href="https://latzplacian.org/" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/henry-moss.jpg" alt="Photo Icon" class="photo-icon">
+												<span class="name">Henry Moss (Cambridge)</span>
+												<a href="https://henrymoss.github.io" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/pmf.jpeg" alt="Photo Icon" class="photo-icon">
+												<span class="name">Patricia Murrieta-Flores (Lancaster)</span>
+												<a href="https://www.lancaster.ac.uk/history/about/people/patricia-murrieta-flores" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/hao.jpeg" alt="Photo Icon" class="photo-icon">
+												<span class="name">Hao Ni (UCL)</span>
+												<a href="https://profiles.ucl.ac.uk/56579-hao-ni" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/nikolas.png" alt="Photo Icon" class="photo-icon">
+												<span class="name">Nikolas Nüsken (KCL)</span>
+												<a href="https://nik-nuesken.com" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/co.jpg" alt="Photo Icon" class="photo-icon">
+												<span class="name">Chris Oates (Newcastle)</span>
+												<a href="https://www.ncl.ac.uk/maths-physics/people/profile/chrisoates.html" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/ap.jpeg" alt="Photo Icon" class="photo-icon">
+												<span class="name">Angus Phillips (Oxford)</span>
+												<a href="https://scholar.google.com/citations?user=sgYwrvUAAAAJ&hl=en" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/cpb.jpeg" alt="Photo Icon" class="photo-icon">
+												<span class="name">Ciara Pike-Burke (Imperial)</span>
+												<a href="https://profiles.imperial.ac.uk/c.pike-burke" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/sp.jpg" alt="Photo Icon" class="photo-icon">
+												<span class="name">Sam Power (Bristol)</span>
+												<a href="https://sites.google.com/view/sp-monte-carlo" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/trs.jpg" alt="Photo Icon" class="photo-icon">
+												<span class="name">Theresa Smith (Bath)</span>
+												<a href="https://people.bath.ac.uk/trs35/" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/ksm.jpg" alt="Photo Icon" class="photo-icon">
+												<span class="name">Kate Smith-Miles (Melbourne)</span>
+												<a href="https://findanexpert.unimelb.edu.au/profile/811703-kate-smith-miles" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/jt.jpeg" alt="Photo Icon" class="photo-icon">
+												<span class="name">Jared Tanner (Oxford)</span>
+												<a href="http://people.maths.ox.ac.uk/tanner/" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
+											<li class="speaker-item">
+												<img src="speakers/mvw.jpg" alt="Photo Icon" class="photo-icon">
+												<span class="name">Mark van der Wilk (Oxford)</span>
+												<a href="https://mvdw.uk" class="link-icon">
+													<i class="fas fa-link"></i>
+												</a>
+											</li>
 										</ul>
-
-
 									</div>	
 								</div>			
 							</section>
