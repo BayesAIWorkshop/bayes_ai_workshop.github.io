@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		/*background-color: #935d8c;*/
+		background-color: #f9f9f9;
 		background-image: url("images/lancaster.jpg");
 		background-attachment: fixed;
 	}
@@ -1644,7 +1644,7 @@
 	body {
 		background-image: url("images/lancaster.jpg");
 		background-size: 100% auto;
-		background-repeat: repeat-y;
+		background-repeat: no-repeat;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
